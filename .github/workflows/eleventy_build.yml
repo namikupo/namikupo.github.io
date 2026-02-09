@@ -25,3 +25,4 @@ jobs:
         with:
           deploy_key: $
           publish_dir: ./dist
+          publish_branch: gh-pages
