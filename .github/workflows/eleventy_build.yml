@@ -24,5 +24,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: $
-          publish_dir: ./dist
+          publish_dir: ./_site
           publish_branch: gh-pages
