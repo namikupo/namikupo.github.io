@@ -1,10 +1,6 @@
 ---
 layout: layout.html
 ---
-<p> 
-    Welcome to my website!
-    It's a little work-in-progress at the moment, but i hope to add some fun stuff like my poems, collections, fixations, projects, and more!
-</p>
 {% for post in collections.post %}
 <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
 <p>{{ post.content }}</p>
