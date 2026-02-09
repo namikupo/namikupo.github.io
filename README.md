@@ -1,1 +1,0 @@
-# namikupo.github.io
