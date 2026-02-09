@@ -1,6 +1,6 @@
 module.exports = {
     dir: {
         input: ".",
-        output: "_site"
+        output: "./_site"
     }
 };
