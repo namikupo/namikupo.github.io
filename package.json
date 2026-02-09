@@ -4,8 +4,8 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "eleventy"
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,5 @@
   "bugs": {
     "url": "https://github.com/namikupo/namikupo.github.io/issues"
   },
-  "homepage": "https://github.com/namikupo/namikupo.github.io#readme"
+  "homepage": "https://github.com/namikupo/namikupo.github.io"
 }
