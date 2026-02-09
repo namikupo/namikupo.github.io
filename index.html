@@ -1,7 +1,42 @@
----
-layout: layout.html
----
-{% for post in collections.post %}
-<h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-<p>{{ post.content }}</p>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>kupo.pet</h1>
+    </header>
+    <main>
+        
+<h2><a href="/posts/post-1/">Super cool blog post title thingie</a></h2>
+<p><p>this is a super duper cool first post</p>
+<p>So just to write it down:
+Algorithm-based compression.
+The idea is to take data, and compress it by generating an algorithm that generates the data.
+As a basic example, for a program that consists of the bits &quot;11110000&quot; i'd want to generate an algorithm that generates the bits &quot;11110000&quot;.
+I'm imagining that it's some sort of equation, which given a number generates a value between 0 and 1. By rounding either up or down it'll generate the numbers.
+The expression would either have to generate a single bit/byte, repeating the operation until the data is generated.
+A downside of doing it this way, is that it would require potentially many iterations of the algorithm to generate the data. Long time/much power.
+This would mean that the compressed file contains no data, but the algorithm/expression to generate it.
+I believe this has the potential to reduce files sizes.</p>
+<p>x = d, where x is the algorithm and d is the data
+d will be a series of values between 0 and 1.
+x will be an expression that generates a series of values between 0 and 1</p>
+<p>Ideal use would be something like:
+Terminal: AlgoCompression compress data.type
+Output: dataAlgorithm.AC</p>
+<p>Terminal: AlgoCompression generate dataAlgorithm.AC
+Output: data.type</p>
+<p>could verify output via checksums</p>
+</p>
+
+<h2><a href="/posts/post-2/">Second cool post</a></h2>
+<p><p>Wow this is such a cool second post</p>
+</p>
+
+    </main>
+</body>
+</html>
